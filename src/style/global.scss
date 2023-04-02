@@ -34,6 +34,10 @@
 .c-s-4 {
   font-size: var(--c-s-4);
 }
+// colors
+.bg-col-sec {
+  background-color: var(--col-sec);
+}
 
 //card
 .c-card {
@@ -43,4 +47,44 @@
 // reset
 a {
   text-decoration: none !important;
+}
+//
+.crausal-cont {
+  height: 75vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 100%;
+  }
+}
+// cards
+.card-cont {
+  height: 600px;
+  .home-card {
+    width: 360px;
+    height: 520px;
+    overflow: hidden;
+    .card-img {
+      height: 400px;
+      overflow: hidden;
+      transition: 0.4s;
+      img {
+        width: 100%;
+      }
+    }
+    .card-content {
+      height: 100px;
+      transition: 0.4s;
+      overflow: hidden;
+    }
+    &:hover > .card-img {
+      height: 220px;
+    }
+    &:hover > .card-content {
+      height: 460px;
+    }
+  }
 }

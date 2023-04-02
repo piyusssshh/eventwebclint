@@ -1,7 +1,7 @@
 const navMenu = () => {
   return (
     <>
-      <div className="section nav py-4">
+      <div className="section nav py-3">
         <div className="container d-flex justify-content-between align-items-center">
           <h3 className="c-s-1 c-head fw-semibold">ARIHANTEVENTS.COM</h3>
           <div className="nav-menu d-flex justify-content-end gap-4 align-items-center">
